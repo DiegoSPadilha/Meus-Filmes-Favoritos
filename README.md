@@ -11,7 +11,7 @@
 
   <h1>Projeto Webpack Base</h1>
   <p>
-    Template de projeto Webpack com TypeScript.
+    // Template de projeto Webpack com TypeScript. //
   </p>
 
   <br>
@@ -30,13 +30,13 @@ npm install
 
 <h2 align="center">Como executar</h2>
 
-Servidor de desenvolvimento webpack:
+Servidor de desenvolvimento webpack :
 
 ```bash
 npm run start
 ```
 
-Build da aplicação com webpack:
+Build da aplicação com webpack :
 
 ```bash
 npm run build
