@@ -5,13 +5,12 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 
-  // O ponto de entrada da aplicação
+  
   entry: {
     index: path.resolve(__dirname, 'src/views', 'TelaPrincipal', 'index.ts'),
     detalhes: path.resolve(__dirname, 'src/views', 'TelaDetalhes','detalhes.ts')
   },
 
-  // Configuração de output do build
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -31,8 +30,6 @@ module.exports = {
     ]
   },
 
- 
-  // aliases
   resolve: {
     extensions: ['.ts', '.js', '.css'],
 
@@ -61,7 +58,6 @@ module.exports = {
     })
   ],
 
-  // Ambiente de desenvolvimento
   devtool: 'source-map',
   
   devServer: {
